@@ -13,4 +13,5 @@ Reflection can be enabled by linking agains `gRPC::grpc++_reflection`, enabling 
 
 If this project is linked with a static version of the grpc library from vcpkg
 the `-Wl,--whole-archive` flag has to be used. (together with `--allow-multiple-definition`). When linking dynamically,
-you will want to link the reflection library with `--no-as-needed`.
+you will want to link the reflection library with `--no-as-needed`. 
+msl
